@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-14">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/colt-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/concurrent-1.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/j3d-core-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/jung-3d-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/jung-3d-demos-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/jung-algorithms-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/jung-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/jung-graph-impl-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/jung-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/jung-jai-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/jung-jai-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/jung-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/jung-visualization-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/vecmath-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t24x137/git/neo/lib/JUNG/wstx-asl-3.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.22.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

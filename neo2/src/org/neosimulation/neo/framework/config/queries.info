@@ -1,0 +1,26 @@
+# This file represents the queries needed to extract most of the information in NEO control databases
+# Do not modify
+TIMING_TABLE_NAME_QUERY = SELECT control.Val FROM control WHERE (control.Key = \'input.timing.tablename\' AND control.Active = true)
+CELL_TABLE_NAME_QUERY = SELECT control.Val FROM control WHERE (control.Key = \'input.matrix.celltable\' AND control.Active = true)
+CELL_TYPE_TABLE_NAME_QUERY = SELECT control.Val FROM control WHERE(control.Key = \'input.matrix.celltypetable\' AND control.Active = true)
+EDGE_TABLE_NAME_QUERY = SELECT control.Val FROM control WHERE(control.Key = \'input.matrix.edgetable\' AND control.Active = true)
+EDGE_TYPE_TABLE_NAME_QUERY = SELECT control.Val FROM control WHERE(control.Key = \'input.matrix.edgetypetable\' AND control.Active = true)
+OUTPUT_CONFIG_TABLE_NAME_QUERY = SELECT control.Val FROM control WHERE(control.KEY = \'output.config.tablename\' AND control.Active = true)
+OUTPUT_CONFIG_QUERY = SELECT * FROM %s WHERE (%s.Active = true)
+UPDATABLE_CONFIG_TABLE_NAME_QUERY = SELECT control.Val FROM control WHERE(control.Key = \'updatable.config.tablename\' AND control.Active = true)
+UPDATABLE_CONFIG_QUERY = SELECT * FROM %s WHERE (%s.Active = true)
+CURRENCY_LOCATION_FULL_PATH_QUERY = SELECT control.Val, control.Key FROM control WHERE (control.Key LIKE \'currencies.%.fullpath\' AND control.Active = true)
+CURRENCY_LOCATION_RELATIVE_PATH_QUERY = SELECT control.Val, control.Key FROM control WHERE (control.Key LIKE \'currencies.%.relativepath\' AND control.Active = true)
+CURRENCY_BASEPKG_QUERY = SELECT control.Val, control.Key FROM control WHERE (control.Key LIKE \'currencies.%.basepackagename\' AND control.Active = true)
+CURRENCY_BASEPATH_QUERY = SELECT control.Val, control.Key FROM control WHERE (control.KEY = \'currencies.basepath\' AND control.Active = true)
+AVAILABLE_CURRENCIES_QUERY = SELECT control.Val FROM control WHERE (control.Key = \'currencies.name\' AND control.Active = true)
+DEFAULT_VALS_CELL_TABLE_NAME_QUERY = SELECT control.Val FROM control WHERE (control.Key = \'input.defaultvals.cell\' AND control.Active = true)
+DEFAULT_VALS_EDGE_TABLE_NAME_QUERY = SELECT control.Val FROM control WHERE (control.Key = \'input.defaultvals.edge\' AND control.Active = true)
+DEFAULT_VALUES_QUERY = SELECT * FROM %s WHERE (%s.Active = true)
+INITIAL_VALUES_QUERY = SELECT * FROM %s
+CELL_TABLE_QUERY = SELECT * FROM %s
+EDGE_TABLE_QUERY = SELECT * FROM %s
+CELL_TYPE_TABLE_QUERY = SELECT * FROM %s
+EDGE_TYPE_TABLE_QUERY = SELECT * FROM %s
+TIMING_TABLE_QUERY = SELECT * FROM %s WHERE (%s.Active = true)
+OUTPUT_INITIAL_VALUES_TABLE_NAME_QUERY = SELECT control.Val FROM control WHERE(control.Key = \'output.config.initialvaluestable\' AND control.Active = true)

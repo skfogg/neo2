@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configkeys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/workspace/NEO2/docs/schemas/configkeys.xsd">
+     <parent name="input">
+		 <parent name="matrix">
+			 <key name="celltable"/>
+			 <key name="celltypetable"/>
+			 <key name="edgetable"/>
+			 <key name="edgetypetable"/>
+		 </parent>
+		 <parent name="defaultvals">
+			 <key name="cell"/>
+			 <key name="edge"/>
+		 </parent>
+		 <parent name="timing">
+			 <key name="tablename"/>
+		 </parent>
+	 </parent>
+	 <parent name="updatable">
+	 	 <parent name="config">
+	 	 	 <key name="tablename"/>
+	 	 </parent>
+	 </parent>
+	 <parent name="output">
+		 <parent name="config">
+			 <key name="tablename"/>
+			 <key name="initialvaluestable"/>
+		 </parent>
+		 <key name="tablename"/>
+	 </parent>
+	 <parent name="currencies">
+		 <key name="name"/>
+		 <key name="basepath"/>
+		 <parent name="%s">
+			 <key name="fullpath"/>
+			 <key name="relativepath"/>
+			 <key name="basepackagename"/>
+		 </parent>
+	 </parent>
+</configkeys>
